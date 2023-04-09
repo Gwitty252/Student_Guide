@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/welcome_btn"
+        android:layout_width="315dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:textStyle="bold"
+        android:text="@string/welcome_"
+        android:textAppearance="@style/welcome_"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sign_in_to_"
+        android:layout_width="248dp"
+        android:layout_height="23dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/sign_in_to_"
+        android:textAppearance="@style/sign_in_to_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/welcome_btn" />
+
+    <TextView
+        android:id="@+id/email_phone"
+        android:layout_width="185dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/email_phone"
+        android:textAppearance="@style/email_phone"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_to_" />
+
+    <EditText
+        android:id="@+id/editAccessCode"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/ic_outline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint=" enter your access code"
+        android:paddingStart="5dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_phone" />
+
+    <TextView
+        android:id="@+id/clickHereTOData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/click_here_"
+        android:textColor="#027426"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editAccessCode" />
+
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/backbutton"
+        android:gravity="center_horizontal|center"
+        android:text="@string/continue_txt"
+        android:textAppearance="@style/continue_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/don_t_have_"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="-1sp"
+        android:text="@string/don_t_have_t"
+        android:textAppearance="@style/don_t_have_a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/don_t_have_account_register"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="-1sp"
+        android:text="REGISTER"
+        android:textAppearance="@style/don_t_have_a"
+        android:textColor="#027426"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continue_btn"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

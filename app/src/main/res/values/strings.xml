@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MyHandBook!</string>
+    <string name="students_pe">Students Personalized \n Information Guide</string>
+    <string name="students_personalized">Students’ Personalized \n Information Guide</string>
+    <string name="a_siwes_pro">A SIWES PROJECT DEFENSE\nBY GIDEON SUNDAY </string>
+
+    <!--Titles-->
+    <string name="first_slide_title">Grade Point Calculation </string>
+    <string name="second_slide_title">Know your Department </string>
+    <string name="third_slide_title">Pay for your dues </string>
+    <!--    <string name="fourth_slide_title">Sit Back And Enjoy</string>-->
+
+
+    <!--Descriptions-->
+    <string name="first_slide_desc"> We help you calculate your GPA at ease by just inputting your grade</string>
+    <string name="second_slide_desc"> Get access to every information about \n the Department of Computer Science</string>
+    <string name="third_slide_desc">Pay for your departmental dues without stress with our all inclusive system</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="get_started"> Get Started </string>
+    <string name="gets_started"> Get Started</string>
+    <string name="grade_point"> Grade Point Calculation</string>
+    <string name="we_help_you">We help you calculate your GPA at ease \n by just inputting your grade</string>
+
+
+    <string name="hang_out_yo"> Hang out, you will be redirected to your students dashboard </string>
+
+    <string name="login_succe"> Login Successful</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome_">Welcome!</string>
+
+    <string name="sign_in_to_">Sign in to your account</string>
+    <string name="sunday_gide">
+Sunday Gideon Joseph
+</string>
+
+    <string name="access_code">
+Access Code
+</string>
+
+    <string name="sign_in">
+Sign in
+</string>
+    <string name="incorrect_d">
+Incorrect details, please confirm your access code
+</string>
+    <string name="ak19_phs_cs">
+AK19/PHS/CSC/052
+</string>
+    <string name="email_phone">
+Email / Phone Number
+</string>
+    <string name="dd_mm_yyyy">
+DD-MM-YYYY
+</string>
+    <string name="click_here_">
+Click here to retrieve your details
+</string>
+
+    <string name="continue_txt">
+Continue
+</string>
+
+    <string name="don_t_have_t">
+Don\'t have an account? Register
+</string>
+    <string name="create_an_a">
+Create an account
+</string>
+
+    <string name="register_to">
+Register to be part of the department
+</string>
+    <string name="email_addre">
+Email Address
+</string>
+
+    <!-- strings.xml -->
+    <string name="enter_your_">
+Enter your email address
+</string>
+    <string name="phone_numbe">
+Phone number
+</string>
+    <string name="enter_your_p">
+Enter your phone number
+</string>
+    <string name="access_code_txt">
+Access Code
+</string>
+
+    <string-array name="gender">
+        <item> male </item>
+        <item> Female</item>
+
+    </string-array>
+
+</resources>

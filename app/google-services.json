@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "595381738666",
+    "project_id": "student-guide-11656",
+    "storage_bucket": "student-guide-11656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595381738666:android:c3c5e01c4a649938a404d3",
+        "android_client_info": {
+          "package_name": "io.gideon.studentguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595381738666-5koen9lst4kgeul3udpunok5p9474kii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPU2wnTmpr0QgUcwIUiTfj2UZDsat2Ge4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595381738666-5koen9lst4kgeul3udpunok5p9474kii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
