@@ -1,185 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-        <style name="h2">
-            <item name="android:fontFamily">@font/ibmplexsansbold</item>
-            <item name="android:textColor">@color/f_black</item>
-        </style>
+    <style name="h2">
+        <item name="android:fontFamily">@font/ibmplexsansbold</item>
+        <item name="android:textColor">@color/f_black</item>
+    </style>
 
-        <style name="a_siwes_pro">
+    <style name="a_siwes_pro">
 
-            <item name="android:textSize">
-                13sp
-            </item>
+        <item name="android:textSize">
+            13sp
+        </item>
 
-            <item name="android:textColor">
-                #7B7B7B
-            </item>
-        </style>
+        <item name="android:textColor">
+            #7B7B7B
+        </item>
+    </style>
 
-        <style name="students_pe">
+    <style name="students_pe">
 
-            <item name="android:textSize">
-                18sp
-            </item>
+        <item name="android:textSize">
+            18sp
+        </item>
 
-            <item name="android:textColor">
-                #101010
-            </item>
-        </style>
-
-
-        <!-- grade point styles.xml -->
-        <style name="grade_point">
-
-            <item name="android:textSize">
-                24sp
-            </item>
-
-            <item name="android:letterSpacing">
-                -0.01
-            </item>
-
-            <item name="android:textColor">
-                #000000
-            </item>
-
-        </style>
-
-        <!-- styles.xml -->
-        <style name="we_help_you">
-
-            <item name="android:textSize">
-                15sp
-            </item>
-
-            <item name="android:letterSpacing">
-                -0.01
-            </item>
-
-            <item name="android:textColor">
-                #6B6A75
-            </item>
-
-        </style>
-
-        <style name="pay_for_you">
-
-            <item name="android:textSize">
-                24sp
-            </item>
-
-            <item name="android:letterSpacing">
-                -0.01
-            </item>
-
-            <item name="android:textColor">
-                #000000
-            </item>
-
-        </style>
+        <item name="android:textColor">
+            #101010
+        </item>
+    </style>
 
 
-        <style name="hang_out_yo">
-            <item name="android:textSize">15sp</item>
-            <item name="android:letterSpacing">-0.01</item>
-            <item name="android:textColor">#51535A</item>
-        </style>
+    <!-- grade point styles.xml -->
+    <style name="grade_point">
 
-        <style name="login_succe">
-            <item name="android:textSize">28sp</item>
-            <item name="android:letterSpacing">-0.01</item>
-            <item name="android:textColor">#000000</item>
-        </style>
+        <item name="android:textSize">
+            24sp
+        </item>
 
-        <style name="welcome_">
-            <item name="android:textSize">28sp</item>
-            <item name="android:letterSpacing">-0.01</item>
-            <item name="android:textColor">#000000</item>
-        </style>
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
 
-        <style name="sign_in_to_">
-            <item name="android:textSize">15sp</item>
-            <item name="android:letterSpacing">-0.01</item>
-            <item name="android:textColor">#51535A</item>
-        </style>
+        <item name="android:textColor">
+            #000000
+        </item>
 
-        <style name="sunday_gide">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#000000</item>
-        </style>
+    </style>
 
-        <style name="access_code">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#060A14</item>
-        </style>
+    <!-- styles.xml -->
+    <style name="we_help_you">
 
-        <style name="sign_in">
-            <item name="android:textSize">16sp</item>
-            <item name="android:textColor">#FFFFFF</item>
-        </style>
+        <item name="android:textSize">
+            15sp
+        </item>
 
-        <style name="incorrect_d">
-            <item name="android:textSize">12sp</item>
-            <item name="android:letterSpacing">-0.02</item>
-            <item name="android:textColor">#FB6C59</item>
-        </style>
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
 
-        <style name="ak19_phs_cs">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#9B9DA1</item>
-        </style>
+        <item name="android:textColor">
+            #6B6A75
+        </item>
 
-        <style name="email_phone">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#060A14</item>
-        </style>
-        <style name="dd_mm_yyyy">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#EBEBEB</item>
-        </style>
+    </style>
 
-        <style name="click_here_a">
-            <item name="android:textSize">12sp</item>
-            <item name="android:letterSpacing">-0.02</item>
-            <item name="android:textColor">#027426</item>
-        </style>
+    <style name="pay_for_you">
 
-        <style name="continue_style">
-            <item name="android:textSize">16sp</item>
-            <item name="android:textColor">#FFFFFF</item>
-        </style>
+        <item name="android:textSize">
+            24sp
+        </item>
 
-        <style name="don_t_have_a">
-            <item name="android:textSize">14sp</item>
-            <item name="android:textColor">#9B9DA1</item>
-        </style>
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
 
-        <style name="create_an_a">
-            <item name="android:textSize">28sp</item>
-            <item name="android:letterSpacing">-0.01</item>
-            <item name="android:textColor">#000000</item>
-        </style>
-        <style name="register_to">
-            <item name="android:textSize">15sp</item>
-            <item name="android:letterSpacing">-0.01</item>
-            <item name="android:textColor">#51535A</item>
-        </style>
-        <style name="email_addre">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#060A14</item>
-        </style>
+        <item name="android:textColor">
+            #000000
+        </item>
 
-        <style name="enter_your_a">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#9B9DA1</item>
-        </style>
+    </style>
 
-        <style name="phone_numbe">
-            <item name="android:textSize">15sp</item>
-            <item name="android:textColor">#060A14</item>
-        </style>
 
+    <style name="hang_out_yo">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#51535A</item>
+    </style>
+
+    <style name="login_succe">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="welcome_">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sign_in_to_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#51535A</item>
+    </style>
+
+    <style name="sunday_gide">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="access_code">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#060A14</item>
+    </style>
+
+    <style name="sign_in">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="incorrect_d">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#FB6C59</item>
+    </style>
+
+    <style name="ak19_phs_cs">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#9B9DA1</item>
+    </style>
+
+    <style name="email_phone">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#060A14</item>
+    </style>
+
+    <style name="dd_mm_yyyy">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#EBEBEB</item>
+    </style>
+
+    <style name="click_here_a">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#027426</item>
+    </style>
+
+    <style name="continue_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="don_t_have_a">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#9B9DA1</item>
+    </style>
+
+    <style name="create_an_a">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="register_to">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#51535A</item>
+    </style>
+
+    <style name="email_addre">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#060A14</item>
+    </style>
+
+    <style name="enter_your_a">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#9B9DA1</item>
+    </style>
+
+    <style name="phone_numbe">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#060A14</item>
+    </style>
+    <!-- styles.xml -->
+    <style name="our_guide">
+        <item name="fontFamily">@font/fonts</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#11131C</item>
+    </style>
 
 
 </resources>

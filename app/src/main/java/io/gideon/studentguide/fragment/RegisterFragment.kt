@@ -6,17 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import io.gideon.studentguide.R
-import io.gideon.studentguide.databinding.FragmentRegisterBinding
+import io.gideon.studentguide.databinding.OurGuideBinding
 
-class RegisterFragment:Fragment(R.layout.fragment_register) {
-    private  lateinit var binding: FragmentRegisterBinding
+class RegisterFragment:Fragment(R.layout.our_guide) {
+    private  lateinit var binding: OurGuideBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentRegisterBinding.inflate(layoutInflater)
+        binding = OurGuideBinding.inflate(layoutInflater)
         return  binding.root
     }
 

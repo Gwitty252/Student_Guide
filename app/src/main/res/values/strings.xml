@@ -22,11 +22,15 @@
     <string name="gets_started"> Get Started</string>
     <string name="grade_point"> Grade Point Calculation</string>
     <string name="we_help_you">We help you calculate your GPA at ease \n by just inputting your grade</string>
+    <string name="ourGuide">Our Guide</string>
+    <string name="foreword">Foreword by Dean Of \nFaculty of Physical \nSciences</string>
+    <string name="requirements">Requirements for\n Graduation </string>
+    <string name="eligibility">Eligibility to sit for Examination in a course</string>
 
 
     <string name="hang_out_yo"> Hang out, you will be redirected to your students dashboard </string>
 
-    <string name="login_succe"> Login Successful</string>
+    <string name="login_success"> Login Successful</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -91,6 +95,10 @@ Enter your phone number
     <string name="access_code_txt">
 Access Code
 </string>
+    <string name="introduction">Introduction of the Department</string>
+    <string name="classification">Classification of \nDegrees</string>
+    <string name="conditions">Conditions for Withdrawal</string>
+    <string name="list_of_courses">List of courses for the \nAward of Bsc. degree in \ncomputer Science</string>
 
     <string-array name="gender">
         <item> male </item>
