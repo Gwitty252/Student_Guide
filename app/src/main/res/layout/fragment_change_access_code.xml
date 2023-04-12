@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ChangeAccessCode">
+
 
     <TextView
         android:id="@+id/welcome_"
         android:layout_width="312dp"
         android:layout_height="39dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="76dp"
         android:gravity="center_vertical"
         android:lineSpacingExtra="0sp"
-        android:textStyle="bold"
-        android:text="@string/welcome_"
-        android:layout_marginStart="15dp"
+        android:text="Change Access Code"
         android:textAppearance="@style/welcome_"
+        android:textStyle="bold"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/sign_in_to_"
-        android:layout_width="247dp"
+        android:layout_width="match_parent"
         android:layout_height="31dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginStart="20dp"
         android:gravity="center_vertical"
         android:lineSpacingExtra="4sp"
-        android:layout_marginStart="15sp"
-        android:text="@string/sign_in_to_"
+        android:text="Create a new access code for your account"
         android:textAppearance="@style/sign_in_to_"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,9 +54,9 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:lineSpacingExtra="1sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
         android:text="@string/sunday_gide"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/profile_image" />
@@ -69,19 +70,19 @@
         android:lineSpacingExtra="1sp"
         android:text="AK19/PHS/CSC/052"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/sunday_gide"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sunday_gide" />
 
 
     <TextView
-        android:id="@+id/accessCodes"
+        android:id="@+id/accessCodesChange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
+        android:text="@string/access_code"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:text="@string/access_code"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,36 +90,51 @@
 
 
     <EditText
-        android:id="@+id/editEmail"
+        android:id="@+id/editAccessCodeChange"
         android:layout_width="333dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
         android:layout_marginTop="11dp"
         android:background="@drawable/shape"
         android:drawableStart="@drawable/ic_outline_lock_24"
-        android:drawablePadding="5dp"
-        android:hint=" Enter your access code"
+        android:drawablePadding="10dp"
+        android:hint=" Confirm your new access code   "
         android:paddingStart="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/accessCodes"
+        app:layout_constraintTop_toBottomOf="@+id/accessCodesConfirmChange"
 
         />
 
-
     <TextView
-        android:id="@+id/clickHereTOData"
+        android:id="@+id/accessCodesConfirmChange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:lineSpacingExtra="1sp"
-        android:layout_marginTop="5dp"
-        android:textColor="#027426"
-        android:text="@string/click_here_"
+        android:layout_marginTop="30dp"
+        android:text="Confirm Access Code"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editAccessCodeConfirmChange" />
+
+
+    <EditText
+        android:id="@+id/editAccessCodeConfirmChange"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/ic_outline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="  Enter your new access code   "
+        android:paddingStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessCodesChange" />
+
 
     <Button
         android:id="@+id/button"
@@ -126,11 +142,17 @@
         android:layout_height="56dp"
         android:layout_marginBottom="36dp"
         android:background="@drawable/backbutton"
-        android:text="@string/sign_in"
+        android:text="Change Access Code "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
