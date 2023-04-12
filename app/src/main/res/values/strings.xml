@@ -98,4 +98,30 @@ Access Code
 
     </string-array>
 
+
+    <string name="nacosanticipate">  ANTICIPATING COMPUTING NACOS WEEK 23 \n
+Welcome to the Anticipating Computing Conference, where we bring together experts from various fields to discuss the latest advancements and applications of anticipatory computing.
+\n \n Anticipatory computing is a cutting-edge technology that utilizes machine learning algorithms and predictive analytics to anticipate future events and automate decision-making processes. From personalized healthcare to smart cities, anticipatory computing has the potential to revolutionize numerous industries and improve the lives of people worldwide.
+\n \n At this conference, we will explore the latest research and trends in anticipatory computing. \n Our keynote speakers will discuss the potential of anticipatory computing in various fields, including finance, transportation, and education. \n
+We look forward to welcoming all students and staff to the Anticipatory Computing Conference and exploring the future of this exciting technology together.
+
+    </string>
+
+    <string name="congress"> NACOS CONGRESS\n
+The NACOS General Congress will be held in May 2023. It will be an interesting moment for students-Lecture interaction.
+\nWe will have interactive workshops where attendees can learn about the latest techniques and tools for developing computing systems. Our panel discussions will feature experts from academia and industry who will share their insights and experiences to all students.
+
+
+
+    </string>
+
+    <string name="timetable">
+
+        Departmental TimeTable
+    </string>
+    <string name="timetabledec">
+
+       We help you know your departmental schedule for classes at ease.
+    </string>
+
 </resources>

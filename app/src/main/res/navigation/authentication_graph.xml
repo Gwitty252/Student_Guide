@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/authentication_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authentication_graph"
+    app:startDestination="@id/signupFragment">
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="io.gideon.studentguide.fragment.auth.signup.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
 
+        <action
+            android:id="@+id/action_signupFragment_to_completeSignUpFragment"
+            app:destination="@id/completeSignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completeSignUpFragment"
+        android:name="io.gideon.studentguide.fragment.auth.signup.CompleteSignUpFragment"
+        android:label="fragment_complete_sign_up"
+        tools:layout="@layout/fragment_complete_sign_up" />
 </navigation>
