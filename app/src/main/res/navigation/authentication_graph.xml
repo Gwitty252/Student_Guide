@@ -3,11 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/authentication_graph"
-    app:startDestination="@id/registerFragment">
-
+    app:startDestination="@id/ourGuide">
     <fragment
-        android:id="@+id/registerFragment"
+        android:id="@+id/ourGuide"
         tools:layout="@layout/our_guide"
-        android:name="io.gideon.studentguide.fragment.RegisterFragment"
-        android:label="RegisterFragment" />
+        android:name="io.gideon.studentguide.fragment.OurGuide"
+        android:label="OurGuide" >
+        <action
+            android:id="@+id/action_ourGuide_to_withdrawalDialog"
+            app:destination="@id/withdrawalDialog" />
+        <action
+            android:id="@+id/action_ourGuide_to_courseList"
+            app:destination="@id/courseList" />
+    </fragment>
+    <dialog
+        android:id="@+id/withdrawalDialog"
+        android:name="io.gideon.studentguide.fragment.WithdrawalDialog"
+        android:label="fragment_withdrawal_dialog"
+        tools:layout="@layout/fragment_withdrawal_dialog" >
+        <action
+            android:id="@+id/action_withdrawalDialog_to_ourGuide"
+            app:destination="@id/ourGuide" />
+    </dialog>
+    <fragment
+        android:id="@+id/courseList"
+        android:name="io.gideon.studentguide.fragment.CourseList"
+        android:label="fragment_course_list"
+        tools:layout="@layout/fragment_course_list" >
+        <action
+            android:id="@+id/action_courseList_to_ourGuide"
+            app:destination="@id/ourGuide" />
+    </fragment>
 </navigation>

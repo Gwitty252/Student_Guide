@@ -99,11 +99,29 @@ Access Code
     <string name="classification">Classification of \nDegrees</string>
     <string name="conditions">Conditions for Withdrawal</string>
     <string name="list_of_courses">List of courses for the \nAward of Bsc. degree in \ncomputer Science</string>
+    <string name="withdrawalpurpose">A student whose result indicates probation for two consecutive academic sessions automatically withdraws from the program. A student withdrawn from a program may seek transfer to another program within the faculty.</string>
 
+    <string name="withdrawalreason">\u2022 A student whose academic performance is still poor after one chance of inter-or-intra-department transfer, which was based on poor academic performance.\n\u2022 A student found guilty of examination misconduct.\n\u2022 A student found guilty of offenses (or crimes) listed in the Students Information Handbook distributed by the Students Affairs Division.\n\u2022 Preference for a course in another University or Institution\n</string>
+    <string name="_100l_first_semester">100L First Semester</string>
     <string-array name="gender">
         <item> male </item>
         <item> Female</item>
 
     </string-array>
+
+    <string name="hlFirstSem">100L First Semester</string>
+    <string name="hlSecondSem">100L Second Semester</string>
+
+
+    <string name="h2lFirstSem">200L First Semester</string>
+    <string name="h2lSecondSem">200L Second Semester</string>
+
+
+    <string name="h3lFirstSem">300L First Semester</string>
+    <string name="h3lSecondSem">300L Second Semester</string>
+
+    <string name="h4lFirstSem">400L First Semester</string>
+    <string name="h4lSecondSem">400L Second Semester</string>
+    <string name="list_of_courses_for_a_semester">List of Courses for a Semester</string>
 
 </resources>
